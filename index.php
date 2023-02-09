@@ -29,6 +29,14 @@ $f3->route('GET /', function($f3){
 
     $f3->set('colors', array('red', 'orange', 'blue'));
 
+    $cupcakes = array('chocolate'=>'Chocolate Ganache', 'strawberry'=>'Strawberry Shortcake',
+    'maple'=>"Maple Walnut");
+    $f3->set('cupcakes', $cupcakes);
+
+    //add a age variable
+    $f3->set('age', 21);
+    //if age
+
     $view = new Template();
     echo $view->render("views/info.html");
 });
