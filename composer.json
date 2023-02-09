@@ -1,0 +1,13 @@
+{
+  "name": "britanyt/public_html/328/diner",
+  "authors": [
+    {
+      "name": "Britany Torres",
+      "email": "torres.britany@student.greenriver.edu"
+
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
